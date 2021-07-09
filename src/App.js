@@ -8,7 +8,7 @@ export const App = () => {
     <div className='container'>
       {data.map((name) => {
         return (
-          <div className='text'>
+          <div className='text' key={name._id}>
             <h3>{name.name.first}</h3>
             <h4>{name.name.last}</h4>
           </div>
