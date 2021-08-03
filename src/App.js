@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css'
 import data from "./data.json";
-
+// Вывести имена и фамилии из массива, который находится во вложениях в json-формате.
 export const App = () => {
   return (
     <div className='container'>
