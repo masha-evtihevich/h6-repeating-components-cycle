@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+}
+.text {
+    font-size: 2vw;
+    background: gold;
+    text-align: center;
+}
